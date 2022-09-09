@@ -609,7 +609,7 @@ for eps in range(0, epoch):
                 Loss = Loss + alpha_1 * Loss_rec + alpha_2 * Loss_lin + alpha_3 * Loss_pred + alpha_4 * weight
                 only_rec = 0
 
-            print("\rProcessing batch number ： {:d} / 94".format(j + 1), end="")
+            print("\rProcessing batch number ： {:d}".format(j + 1), end="")
 
         Loss = Loss / batch
         print("\nLoss_rec", Loss_rec)
