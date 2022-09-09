@@ -41,7 +41,7 @@ def van_der_pol_solve(N, N_Traj):
     # 龙格库塔
     m = 1
     n = 2
-    h = 0.01
+    h = 0.05
     '''
     def f(t, x, u):
         x1 = x[0, :];
@@ -86,7 +86,7 @@ def nonlinear_forApproach3_solve(N, N_Traj):
     # 龙格库塔
     m = 2
     n = 2
-    h = 0.01
+    h = 0.05
     '''
     def f(t, x, u):
         x1 = x[0, :];
